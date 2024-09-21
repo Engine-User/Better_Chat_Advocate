@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+/* Global styles */
+body {
+    background-color: #FFF5E6;
+    color: #8B0000;
+    font-family: 'Graduate', sans-serif !important;
+}
+
+/* 3D button style */
+.stButton > button {
+    background-color: #8B0000;
+    border: none;
+    color: #FFF5E6;
+    padding: 20px 40px;  /* Increased padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;  /* Increased font size */
+    margin: 6px 3px;  /* Adjusted margin */
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 12px #4A0000;  /* Increased shadow */
+    width: 250px;  /* Increased width */
+    height: 80px;  /* Increased height */
+    font-family: 'Graduate', sans-serif !important;
+    font-weight: bold;  /* Added bold font weight */
+    border-radius: 10px;  /* Added rounded corners */
+}
+
+.stButton > button:hover {
+    background-color: #A52A2A;
+    transform: translateY(-2px);  /* Slight lift on hover */
+    box-shadow: 0 14px #4A0000;  /* Increased shadow on hover */
+}
+
+.stButton > button:active {
+    background-color: #800000;
+    box-shadow: 0 6px #4A0000;
+    transform: translateY(6px);
+}
+
+/* Sidebar button style */
+.sidebar-button {
+    background-color: #8B0000;
+    border: none;
+    color: #FFF5E6;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 5px #4A0000;
+    width: 150px;
+    font-family: 'Graduate', sans-serif !important;
+}
+
+.sidebar-button:hover {
+    background-color: #A52A2A;
+}
+
+.sidebar-button:active {
+    background-color: #800000;
+    box-shadow: 0 2px #4A0000;
+    transform: translateY(2px);
+}
+
+/* Main title style */
+.main-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #8B0000;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(139,0,0,0.1);
+    font-family: 'Graduate', sans-serif !important;
+}
+
+/* Streamlit elements styling */
+.stTextInput > div > div > input,
+.stTextArea > div > div > textarea,
+.stSelectbox > div > div > select,
+.stDateInput > div > div > input {
+    background-color: #FFF5E6;
+    color: #8B0000;
+    font-family: 'Graduate', sans-serif !important;
+}
+
+/* Apply Graduate font to all text elements */
+p, h1, h2, h3, h4, h5, h6, span, div {
+    font-family: 'Graduate', sans-serif !important;
+}
