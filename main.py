@@ -40,7 +40,7 @@ def query_groq(prompt):
         "Content-Type": "application/json"
     }
     data = {
-        "model": "llama-3.1-70b-versatile",
+        "model": "llama-3.3-70b-versatile",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.5,
         "max_tokens": 1000
